@@ -1,0 +1,16 @@
+node {
+
+    stage('cloning git repo') {
+
+        git branch: 'main', url:'https://github.com/shubham-rathod36/take_home_assignment.git'
+
+    }
+	
+    stage('Deploy') {
+
+	sh "cd ./take_home_assignment/jenkins"
+	sh "docker-compose up -d"
+	
+    }
+	
+}

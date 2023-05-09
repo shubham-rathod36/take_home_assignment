@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  app:
+    image: "shubrathod44/nginx-app:1.0"
+    ports:
+      - "80:80"
