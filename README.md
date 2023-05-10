@@ -6,9 +6,9 @@ Git hub repo --> https://github.com/shubham-rathod36/take_home_assignment
 
 Nginx app Image --> https://hub.docker.com/r/shubrathod44/nginx-app
 
-Image can we run using the command --> docker run -d --rm -p 80:80 shubrathod44/nginx-app:1.0
+Image can be run using the command --> docker run -d --rm -p 80:80 shubrathod44/nginx-app:1.0
 
-The Dockerfile and the associated code cna be found in docker/ directory.
+The Dockerfile and the associated code can be found in docker/ directory.
 
 Part 2. Infrastructure Provisioning ( Dry Run Only )
 
